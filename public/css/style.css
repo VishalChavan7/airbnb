@@ -1,0 +1,259 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  position: relative;
+  top: 5rem;
+}
+
+.container {
+  flex: 1;
+}
+
+.fa-airbnb {
+  font-size: 2.5rem;
+  margin-left: 15px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: x-large;
+  color: #fe424d;
+  display: flex;
+  align-items: center;
+  margin-top: -3px;
+  gap: 10px;
+}
+
+.logo:hover {
+  font-weight: 700;
+  font-size: x-large;
+  color: red;
+  display: flex;
+  align-items: center;
+  margin-top: -3px;
+  gap: 10px;
+}
+
+.input-search {
+  height: 3rem;
+  width: 22.5rem;
+  border-radius: 1.5rem;
+}
+
+.btn-search {
+  width: 6.5rem;
+  background-color: #fe424d;
+  color: white;
+  border-radius: 1.5rem;
+  margin-left: -7rem;
+}
+.btn-search:hover {
+  background-color: red;
+  color: white;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.6rem;
+}
+
+#filter {
+  text-align: center;
+  opacity: 0.7;
+}
+
+#filter:hover {
+  color: #fe424d;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.tax-toggle {
+  padding: 0.75rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: -1.2rem;
+}
+.tax-info {
+  display: none;
+}
+
+.new-form h1 {
+  color: #fe424d;
+}
+
+.new-form h1:hover {
+  color: red;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.nav-link {
+  color: #222222;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links {
+  width: 100%;
+}
+
+.f-info-socials {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.f-info-socials i {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.f-info {
+  text-align: center;
+  height: 8rem;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.listing-card {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 0.75rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.home-card:hover {
+  opacity: 0.8;
+  background-color: white;
+  transition-duration: 300ms;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
+.card-text a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.done-btn {
+  background-color: #fe424d;
+  border: none;
+  color: white;
+}
+
+.done-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #fe424d;
+  border: none;
+  color: white;
+}
+
+.edit-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 77vh;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btns .show-edit-btn {
+  background-color: green;
+  border: none;
+  color: white;
+  height: 2.4rem;
+  width: 10rem;
+}
+
+.btns .delete-btn {
+  height: 2.4rem;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.img-card {
+  margin: 0.625rem;
+  margin-top: -3.25rem;
+}
+
+.img-card img {
+  max-height: 40rem;
+  min-width: 30rem;
+  max-width: 30rem;
+}
+
+.detail.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-card .card-title {
+  margin-top: -3rem;
+  font-size: 4rem;
+}
+
+.detail-card .card-text {
+  padding-right: 5rem;
+  margin-top: 18rem;
+}
+
+.comment {
+  padding-right: 5rem;
+}
+
+.allreviews {
+  margin-top: 12.5rem;
+}
+
+#map {
+  height: 400px;
+  width: 90vw;
+}
+
+.map-div {
+  margin-top: 11.5rem;
+}
+
+.map {
+  border-radius: 1rem;
+}
